@@ -1,0 +1,100 @@
+body {
+  background-color: #121212;
+  color: #f8f8f8;
+}
+
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin: 2%;
+}
+
+a:hover {
+  color: yellow;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100vw;
+  height: 40px;
+}
+
+.homepage-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.image-container {
+  flex: 1;
+  margin: auto;
+  text-align: center;
+}
+
+.text-container {
+  flex: 1;
+  margin: auto;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-top: 2%;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  border: 0.5px solid whitesmoke;
+  align-items: center;
+  width: 350px;
+  padding: 2%;
+  text-align: justify;
+  margin: 1%;
+  border-radius: 14px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  margin: auto;
+  align-items: center;
+}
+
+input {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  width: 60%;
+  height: 150px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+button {
+  background-color: whitesmoke;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: yellow;
+}
